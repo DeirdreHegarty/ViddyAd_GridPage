@@ -1,0 +1,295 @@
+<!DOCTYPE>
+<html>
+<head>
+	<title>Express</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="GridPage.css">
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div class="col-xs-12 text-center">
+			<h1 id="mainHeader">How would you like to create your video?</h1>
+			<h3 id="subHeader">Start from scratch or chose from a stunning video style</h3>
+		</div>
+	</div>
+	<div class="row" id="firstRowOfBtns">
+		<div class="col-md-offset-1 col-md-11 text-center">
+			<a href=""><div id="popularBtn"><p>Popular</p></div></a>
+			<a href=""><div id="topButtons"><p id="topBtnText">Beauty, Retail & Fashion</p></div></a>
+			<a href=""><div id="topButtons"><p id="topBtnText">Education & Training</p></div></a>
+			<a href=""><div id="topButtons"><p id="topBtnText">Food, Drink & Entertainment</p></div></a>
+			<a href=""><div id="topButtons"><p id="topBtnText">PR & Events</p></div></a>
+		</div>
+	</div>
+	<div class="row" id="secondRowOfBtns">
+		<div class="col-md-offset-1 col-md-10 text-center">
+			<a href=""><div id="topButtons"><p id="topBtnText">Health & Fitness</p></div></a>
+			<a href=""><div id="topButtons"><p id="topBtnText">Business & Finance</p></div></a>
+			<a href=""><div id="topButtons"><p id="topBtnText">Real Estate</p></div></a>
+			<a href=""><div id="topButtons"><p id="topBtnText">Recruitment & Jobs</p></div></a>
+			<a href=""><div id="topButtons"><p id="topBtnText">Technology</p></div></a>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-offset-1 col-md-11">
+			<hr id="hrTag">
+		</div>
+	</div>
+</div>
+<div class="container">
+	<!-- ROWS OF VIDEOS START HERE -->
+	<!-- FIRST ROW -->
+	<div class="row">
+		<div class="col-xs-12 col-md-4 vidRow">
+			<div class="row">
+				<div class="col-xs-12">
+					<img id="vidImage" src="Assets/makeOwn.svg">
+				</div>
+			</div>
+			<div class="row">
+				<div id="vidInfo"class="col-xs-12 text-center">
+					<p id="vidTitle">Start from scratch</p>
+					<p id="vidLength">10 - 60 seconds</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-md-4 vidRow" >
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="pricingTag">FREE</div>
+					<img id="playIcon" src="Assets/playIcon.svg">
+					<img id="vidImage" src="https://s3.amazonaws.com/viddyad/viddyad/assets/viddyad/images/viddyad_direct/THUMBNAILS/BEAUTY.jpg">
+				</div>
+			</div>
+			<div class="row">
+				<div id="vidInfo"class="col-xs-12 text-center">
+					<p id="vidTitle">Lovely Shtyle</p>
+					<p id="vidLength">15 seconds</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-md-4 vidRow">
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="pricingTag">FREE</div>
+					<img id="playIcon" src="Assets/playIcon.svg">
+					<img id="vidImage" src="https://s3.amazonaws.com/viddyad/viddyad/assets/viddyad/images/viddyad_direct/THUMBNAILS/EDUCATION.jpg">
+				</div>
+				<div id="vidInfo"class="col-xs-12 text-center">
+					<p id="vidTitle">Lovely Shtyle</p>
+					<p id="vidLength">15 seconds</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- SECOND ROW -->
+		<div class="col-xs-12 col-md-4 vidRow">
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="pricingTag">FREE</div>
+					<img id="playIcon" src="Assets/playIcon.svg">
+					<img	id="vidImage"	src="https://s3.amazonaws.com/viddyad/viddyad/assets/viddyad/images/viddyad_direct/THUMBNAILS/DIGITAL_MARKETING.png">
+				</div>
+			</div>
+			<div class="row">
+				<div id="vidInfo"class="col-xs-12 text-center">
+					<p id="vidTitle">Lovely Shtyle</p>
+					<p id="vidLength">15 seconds</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-md-4 vidRow">
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="pricingTag">FREE</div>
+					<img id="playIcon" src="Assets/playIcon.svg">
+					<img id="vidImage" src="https://s3.amazonaws.com/viddyad/viddyad/assets/viddyad/images/viddyad_direct/THUMBNAILS/FOOD.jpg">
+				</div>
+			</div>
+			<div class="row">
+				<div id="vidInfo"class="col-xs-12 text-center">
+					<p id="vidTitle">Lovely Shtyle</p>
+					<p id="vidLength">15 seconds</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-md-4 vidRow">
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="pricingTag">FREE</div>
+					<img id="playIcon" src="Assets/playIcon.svg">
+					<img id="vidImage" src="https://s3.amazonaws.com/viddyad/viddyad/assets/viddyad/images/viddyad_direct/THUMBNAILS/FINANCE.jpg">
+				</div>
+			</div>
+			<div class="row">
+				<div id="vidInfo"class="col-xs-12 text-center">
+					<p id="vidTitle">Lovely Shtyle</p>
+					<p id="vidLength">15 seconds</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- THIRD ROW -->
+		<div class="col-xs-12 col-md-4 vidRow">
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="pricingTag">FREE</div>
+					<img id="playIcon" src="Assets/playIcon.svg">
+					<img id="vidImage" src="https://s3.amazonaws.com/viddyad/viddyad/assets/viddyad/images/viddyad_direct/THUMBNAILS/TRAVEL.jpg">
+				</div>
+			</div>
+			<div class="row">
+				<div id="vidInfo"class="col-xs-12 text-center">
+					<p id="vidTitle">Lovely Shtyle</p>
+					<p id="vidLength">15 seconds</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-md-4 vidRow">
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="pricingTag">FREE</div>
+					<img id="playIcon" src="Assets/playIcon.svg">
+					<img id="vidImage" src="https://s3.amazonaws.com/viddyad/viddyad/assets/viddyad/images/viddyad_direct/THUMBNAILS/APPAREL.jpg" >
+				</div>
+			</div>
+			<div class="row">
+				<div id="vidInfo"class="col-xs-12 text-center">
+					<p id="vidTitle">Lovely Shtyle</p>
+					<p id="vidLength">15 seconds</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-md-4 vidRow">
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="pricingTag">FREE</div>
+					<img id="playIcon" src="Assets/playIcon.svg">
+					<img id="vidImage" src="https://s3.amazonaws.com/viddyad/viddyad/assets/viddyad/images/viddyad_direct/THUMBNAILS/REAL_ESTATE.jpg">
+				</div>
+			</div>
+			<div class="row">
+				<div id="vidInfo"class="col-xs-12 text-center">
+					<p id="vidTitle">Lovely Shtyle</p>
+					<p id="vidLength">15 seconds</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- FORTH ROW -->
+		<div class="col-xs-12 col-md-4 vidRow">
+			<div class="row">
+				<div class="col-xs">
+					<div id="pricingTag">FREE</div>
+					<img id="playIcon" src="Assets/playIcon.svg">
+					<img id="vidImage" src="https://s3.amazonaws.com/viddyad/viddyad/assets/viddyad/images/viddyad_direct/APPAREL/APPAREL_1.jpg" >
+				</div>
+			</div>
+			<div class="row">
+				<div id="vidInfo"class="col-xs-12 text-center">
+					<p id="vidTitle">Lovely Shtyle</p>
+					<p id="vidLength">15 seconds</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-md-4 vidRow">
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="pricingTag">FREE</div>
+					<img id="playIcon" src="Assets/playIcon.svg">
+					<img id="vidImage" src="https://s3.amazonaws.com/viddyad/viddyad/assets/viddyad/images/viddyad_direct/FINANCE/FINANCE20.jpg">
+				</div>
+			</div>
+			<div class="row">
+				<div id="vidInfo"class="col-xs-12 text-center">
+					<p id="vidTitle">Lovely Shtyle</p>
+					<p id="vidLength">15 seconds</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-md-4 vidRow">
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="pricingTag">FREE</div>
+					<img id="playIcon" src="Assets/playIcon.svg">
+					<img id="vidImage" src="https://s3.amazonaws.com/viddyad/viddyad/assets/viddyad/images/viddyad_direct/THUMBNAILS/TRAVEL.jpg">
+				</div>
+			</div>
+			<div class="row">
+				<div id="vidInfo"class="col-xs-12 text-center">
+					<p id="vidTitle">Lovely Shtyle</p>
+					<p id="vidLength">15 seconds</p>
+				</div>
+			</div>
+		</div>
+
+		<!-- FIFTH ROW -->
+		<div class="col-xs-12 col-md-4 vidRow">
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="pricingTag">FREE</div>
+					<img id="playIcon" src="Assets/playIcon.svg">
+					<img id="vidImage" src="https://s3.amazonaws.com/viddyad/viddyad/assets/viddyad/images/viddyad_direct/THUMBNAILS/TECHNOLOGY.jpg">
+				</div>
+			</div>
+			<div class="row">
+				<div id="vidInfo"class="col-xs-12 text-center">
+					<p id="vidTitle">Lovely Shtyle</p>
+					<p id="vidLength">15 seconds</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-md-4 vidRow">
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="pricingTag">FREE</div>
+					<img id="playIcon" src="Assets/playIcon.svg">
+					<img	id="vidImage" src="https://s3.amazonaws.com/viddyad/viddyad/assets/viddyad/images/viddyad_direct/THUMBNAILS/BEAUTY.jpg">
+				</div>
+			</div>
+			<div class="row">
+				<div id="vidInfo"class="col-xs-12 text-center">
+					<p id="vidTitle">Lovely Shtyle</p>
+					<p id="vidLength">15 seconds</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-md-4 vidRow">
+			<div class="row">
+				<div class="col-xs-12">
+					<div id="pricingTag">FREE</div>
+					<img id="playIcon" src="Assets/playIcon.svg">
+					<img id="vidImage" src="https://s3.amazonaws.com/viddyad/viddyad/assets/viddyad/images/viddyad_direct/THUMBNAILS/DIGITAL_MARKETING.png">
+				</div>
+			</div>
+			<div class="row">
+				<div id="vidInfo"class="col-xs-12 text-center">
+					<p id="vidTitle">Lovely Shtyle</p>
+					<p id="vidLength">15 seconds</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ <script type="text/javascript" src="GridPage.js"></script>
+</body>
+</html>
